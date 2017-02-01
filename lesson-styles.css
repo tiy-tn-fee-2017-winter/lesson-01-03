@@ -12,3 +12,20 @@ ul {
 * {
   box-sizing: border-box;
 }
+
+img {
+  max-width: 100%;
+}
+
+
+/* Grid */
+
+.row {
+  overflow: auto;
+}
+
+.grid-item {
+  width: calc(100% / 4 - 2rem - 2rem);
+  float: left;
+  margin: 2rem;
+}
